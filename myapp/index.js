@@ -6,12 +6,12 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/hest', (req, res) => {
-  res.send('<h1> Hej Heste Mand</h1>')
+app.get('/Mormor', (req, res) => {
+  res.send('<h1> Hej Mormor</h1>')
 })
 
-app.get('/api/hest', (req, res) => {
-  res.send('{"name": "hest","age": "23"}')
+app.get('/api/bedstemor', (req, res) => {
+  res.send('{"name": "Grete","age": "73"}')
 })
 
 app.listen(port, () => {
