@@ -11,7 +11,7 @@ app.get('/Mormor', (req, res) => {
 })
 
 app.get('/api/bedstemor', (req, res) => {
-  res.send('{"name": "Grete","age": "73"}')
+  res.json({"name": "Grete","age": "73"})
 })
 
 app.listen(port, () => {
